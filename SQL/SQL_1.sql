@@ -48,6 +48,7 @@ where first_name = "HARPO" and last_name = "WILLIAMS";
 
 -- 5a. You cannot locate the schema of the address table. Which query would you use to re-create it?
 show create table address;
+		    
 -- 6a. Use JOIN to display the first and last names, as well as the address, of each staff member. Use the tables staff and address:
 select s.first_name, s.last_name, a.address, a.address2, a.district, a.city_id, a.postal_code
 from staff s
