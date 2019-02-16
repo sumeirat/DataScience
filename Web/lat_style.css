@@ -1,0 +1,67 @@
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.row-card {
+  margin: 10px 30px 10px 30px;
+}
+
+@media (min-width: 768px){
+  .navbar-expand-custom .navbar-collapse {
+      display: flex!important;
+  }
+  .navbar-expand-custom .navbar-toggler {
+      display: none;
+  }
+}
+
+.navbar-header {
+  background-color:rgb(9, 9, 155);
+}
+
+.card {
+  padding: 16px;
+  background-color: #e1f0fa;
+  border-style: solid;
+  border-color: white;
+  border-width: 10px;
+}
+
+.image-border {
+  border-style: solid; 
+  border-width: 2px;
+  border-color:#dbeefa;
+}
+
+.image-highlight {
+  border-style: solid; 
+  border-width: 2px;
+  border-color:#e6e205;
+}
+
+h4 {
+    font-family: cursive;
+    color:  rgb(9, 9, 155);
+    font-weight: bold;
+}
+
+h3 {
+  font-family: cursive;
+  color:  rgb(9, 9, 155);
+  font-weight: bold;
+}
+
+hr {
+  border-color:rgb(57, 133, 233);
+}
+
+.image-margin-1 {
+  margin: 5px 0px 5px 0px;
+}
+
+.image-margin-2 {
+  margin: 20px;
+}
