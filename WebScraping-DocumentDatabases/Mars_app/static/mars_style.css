@@ -1,0 +1,50 @@
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.row-style {
+  margin: 10px 30px 10px 30px;
+}
+
+.card {
+  padding: 16px;
+  background-color: #ecd7f8;
+  border-style: solid;
+  border-color: white;
+  border-width: 10px;
+}
+
+h4 {
+    font-family: cursive;
+    color:  #3a005c;
+    font-weight: bold;
+}
+
+h3 {
+  font-family: cursive;
+  color:  #12001d;
+  font-weight: bold;
+}
+
+h1 {
+  font-family: cursive;
+  color:   #12001d;
+  font-weight: bold;
+}
+
+hr {
+  border-color: #3a005c;
+}
+
+.image-margin-1 {
+  margin: 10px 5px 10px 5px;
+}
+
+.image-border {
+  border-style: solid; 
+  border-width: 2px;
+  border-color:#959596;
+}
